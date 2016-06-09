@@ -1,0 +1,78 @@
+@objects
+  header  css .header-wrap
+    logo  css .site-title > a
+    navigation-wrapper	css	.nav-wrapper
+		menuItem-*	css	.nav-menu > li
+
+  content id main
+
+  article-* css article.post
+
+  paging-navigation css .paging-navigation
+    previousButton  css .nav-previous
+
+  rightBlock id secondary
+
+= Header =
+  header:
+    visible
+    centered horizontally inside screen
+    inside screen 0px top
+
+  header.logo:
+    @on desktop
+      visible
+      above header.navigation-wrapper
+      image file /../imgs/logo3.png, error 15%
+
+= Navigation =
+  header.navigation-wrapper:
+    visible
+    centered horizontally inside screen
+    inside header 0px bottom
+
+  = Menu =
+    @on desktop
+      @for [1 - 4] as index
+        header.navigation-wrapper.menuItem-${index}:
+          visible
+          left-of header.navigation-wrapper.menuItem-${index + 1} ~0px
+          aligned horizontally all header.navigation-wrapper.menuItem-${index + 1}
+
+    header.navigation-wrapper.menuItem-1:
+      @on mobile
+        visible
+        left-of header.navigation-wrapper.menuItem-6
+
+    header.navigation-wrapper.menuItem-6:
+      @on mobile
+        visible
+        right-of header.navigation-wrapper.menuItem-1
+
+= Content =
+  content:
+    visible
+
+  = Article =
+  @forEach [article-*] as articleItem, next as nextArticleItem
+    ${articleItem}:
+      aligned vertically all ${nextArticleItem}
+      above ${nextArticleItem}
+      visible
+
+= Paging Navigation =
+  paging-navigation:
+    visible
+    below article-8
+
+  paging-navigation.previousButton:
+    visible
+    inside paging-navigation 0px left
+
+= Right Block =
+  rightBlock:
+    visible
+    @on desktop
+      right-of article-1
+    @on mobile
+      below paging-navigation

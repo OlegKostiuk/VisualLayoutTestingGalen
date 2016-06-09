@@ -1,0 +1,10 @@
+
+@@ table resolutions
+	|	type					|	screenSize	|	tags	|
+	|	mobile					|	500x800		|	mobile	|
+	|	desktop	|	1366x768	|	desktop	|
+
+@@ parameterized using resolutions
+Home page test on ${type}
+	http://www.droid-life.com/ ${screenSize}
+		check homePage.gspec --include "${tags}"

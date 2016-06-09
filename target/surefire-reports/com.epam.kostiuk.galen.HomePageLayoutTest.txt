@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.epam.kostiuk.galen.HomePageLayoutTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 105.497 sec - in com.epam.kostiuk.galen.HomePageLayoutTest

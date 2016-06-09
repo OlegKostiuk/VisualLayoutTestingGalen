@@ -1,0 +1,31 @@
+{
+  "tests" : [ {
+    "name" : "com.epam.kostiuk.galen.HomePageLayoutTest#homePageTest",
+    "startedAt" : 1464335975562,
+    "endedAt" : 1464335975562,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 49,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 49
+    },
+    "testId" : "1-com.epam.kostiuk.galen.homepagelayouttest-homepagetest",
+    "duration" : 0,
+    "failed" : false
+  }, {
+    "name" : "com.epam.kostiuk.galen.HomePageLayoutTest#homePageTest",
+    "startedAt" : 1464336059108,
+    "endedAt" : 1464336059108,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 38,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 38
+    },
+    "testId" : "2-com.epam.kostiuk.galen.homepagelayouttest-homepagetest",
+    "duration" : 0,
+    "failed" : false
+  } ]
+}

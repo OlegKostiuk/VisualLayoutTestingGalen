@@ -1,0 +1,546 @@
+{
+  "testId" : "1-com.epam.kostiuk.galen.homepagelayouttest-homepagetest",
+  "name" : "com.epam.kostiuk.galen.HomePageLayoutTest#homePageTest",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout specs/homePage.gspec",
+      "status" : "info",
+      "time" : 1464336054580,
+      "includedTags" : [ "desktop" ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "Header",
+        "objects" : [ {
+          "name" : "header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homePage.gspec",
+              "lineNumber" : 18
+            },
+            "name" : "visible",
+            "highlight" : [ "header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homePage.gspec",
+              "lineNumber" : 19
+            },
+            "name" : "centered horizontally inside screen",
+            "highlight" : [ "header", "screen" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homePage.gspec",
+              "lineNumber" : 20
+            },
+            "name" : "inside screen 0px top",
+            "highlight" : [ "header", "screen" ]
+          } ]
+        }, {
+          "name" : "header.logo",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homePage.gspec",
+              "lineNumber" : 24
+            },
+            "name" : "visible",
+            "highlight" : [ "header.logo" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homePage.gspec",
+              "lineNumber" : 25
+            },
+            "name" : "above header.navigation-wrapper",
+            "highlight" : [ "header.logo", "header.navigation-wrapper" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homePage.gspec",
+              "lineNumber" : 26
+            },
+            "name" : "image file /../imgs/logo3.png, error 15%",
+            "highlight" : [ "header.logo" ]
+          } ]
+        } ]
+      }, {
+        "name" : "Navigation",
+        "objects" : [ {
+          "name" : "header.navigation-wrapper",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homePage.gspec",
+              "lineNumber" : 30
+            },
+            "name" : "visible",
+            "highlight" : [ "header.navigation-wrapper" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homePage.gspec",
+              "lineNumber" : 31
+            },
+            "name" : "centered horizontally inside screen",
+            "highlight" : [ "header.navigation-wrapper", "screen" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homePage.gspec",
+              "lineNumber" : 32
+            },
+            "name" : "inside header 0px bottom",
+            "highlight" : [ "header.navigation-wrapper", "header" ]
+          } ]
+        } ],
+        "sections" : [ {
+          "name" : "Menu",
+          "objects" : [ {
+            "name" : "header.navigation-wrapper.menuItem-1",
+            "specs" : [ {
+              "status" : "info",
+              "place" : {
+                "filePath" : "specs/homePage.gspec",
+                "lineNumber" : 38
+              },
+              "name" : "visible",
+              "highlight" : [ "header.navigation-wrapper.menuItem-1" ]
+            }, {
+              "status" : "info",
+              "place" : {
+                "filePath" : "specs/homePage.gspec",
+                "lineNumber" : 39
+              },
+              "name" : "left-of header.navigation-wrapper.menuItem-2 ~0px",
+              "highlight" : [ "header.navigation-wrapper.menuItem-1", "header.navigation-wrapper.menuItem-2" ]
+            }, {
+              "status" : "info",
+              "place" : {
+                "filePath" : "specs/homePage.gspec",
+                "lineNumber" : 40
+              },
+              "name" : "aligned horizontally all header.navigation-wrapper.menuItem-2",
+              "highlight" : [ "header.navigation-wrapper.menuItem-1", "header.navigation-wrapper.menuItem-2" ]
+            } ]
+          }, {
+            "name" : "header.navigation-wrapper.menuItem-2",
+            "specs" : [ {
+              "status" : "info",
+              "place" : {
+                "filePath" : "specs/homePage.gspec",
+                "lineNumber" : 38
+              },
+              "name" : "visible",
+              "highlight" : [ "header.navigation-wrapper.menuItem-2" ]
+            }, {
+              "status" : "info",
+              "place" : {
+                "filePath" : "specs/homePage.gspec",
+                "lineNumber" : 39
+              },
+              "name" : "left-of header.navigation-wrapper.menuItem-3 ~0px",
+              "highlight" : [ "header.navigation-wrapper.menuItem-2", "header.navigation-wrapper.menuItem-3" ]
+            }, {
+              "status" : "info",
+              "place" : {
+                "filePath" : "specs/homePage.gspec",
+                "lineNumber" : 40
+              },
+              "name" : "aligned horizontally all header.navigation-wrapper.menuItem-3",
+              "highlight" : [ "header.navigation-wrapper.menuItem-2", "header.navigation-wrapper.menuItem-3" ]
+            } ]
+          }, {
+            "name" : "header.navigation-wrapper.menuItem-3",
+            "specs" : [ {
+              "status" : "info",
+              "place" : {
+                "filePath" : "specs/homePage.gspec",
+                "lineNumber" : 38
+              },
+              "name" : "visible",
+              "highlight" : [ "header.navigation-wrapper.menuItem-3" ]
+            }, {
+              "status" : "info",
+              "place" : {
+                "filePath" : "specs/homePage.gspec",
+                "lineNumber" : 39
+              },
+              "name" : "left-of header.navigation-wrapper.menuItem-4 ~0px",
+              "highlight" : [ "header.navigation-wrapper.menuItem-3", "header.navigation-wrapper.menuItem-4" ]
+            }, {
+              "status" : "info",
+              "place" : {
+                "filePath" : "specs/homePage.gspec",
+                "lineNumber" : 40
+              },
+              "name" : "aligned horizontally all header.navigation-wrapper.menuItem-4",
+              "highlight" : [ "header.navigation-wrapper.menuItem-3", "header.navigation-wrapper.menuItem-4" ]
+            } ]
+          }, {
+            "name" : "header.navigation-wrapper.menuItem-4",
+            "specs" : [ {
+              "status" : "info",
+              "place" : {
+                "filePath" : "specs/homePage.gspec",
+                "lineNumber" : 38
+              },
+              "name" : "visible",
+              "highlight" : [ "header.navigation-wrapper.menuItem-4" ]
+            }, {
+              "status" : "info",
+              "place" : {
+                "filePath" : "specs/homePage.gspec",
+                "lineNumber" : 39
+              },
+              "name" : "left-of header.navigation-wrapper.menuItem-5 ~0px",
+              "highlight" : [ "header.navigation-wrapper.menuItem-4", "header.navigation-wrapper.menuItem-5" ]
+            }, {
+              "status" : "info",
+              "place" : {
+                "filePath" : "specs/homePage.gspec",
+                "lineNumber" : 40
+              },
+              "name" : "aligned horizontally all header.navigation-wrapper.menuItem-5",
+              "highlight" : [ "header.navigation-wrapper.menuItem-4", "header.navigation-wrapper.menuItem-5" ]
+            } ]
+          } ]
+        } ]
+      }, {
+        "name" : "Content",
+        "objects" : [ {
+          "name" : "content",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homePage.gspec",
+              "lineNumber" : 54
+            },
+            "name" : "visible",
+            "highlight" : [ "content" ]
+          } ]
+        }, {
+          "name" : "article-1",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homePage.gspec",
+              "lineNumber" : 59
+            },
+            "name" : "aligned vertically all article-2",
+            "highlight" : [ "article-1", "article-2" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homePage.gspec",
+              "lineNumber" : 60
+            },
+            "name" : "above article-2",
+            "highlight" : [ "article-1", "article-2" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homePage.gspec",
+              "lineNumber" : 61
+            },
+            "name" : "visible",
+            "highlight" : [ "article-1" ]
+          } ]
+        }, {
+          "name" : "article-2",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homePage.gspec",
+              "lineNumber" : 59
+            },
+            "name" : "aligned vertically all article-3",
+            "highlight" : [ "article-2", "article-3" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homePage.gspec",
+              "lineNumber" : 60
+            },
+            "name" : "above article-3",
+            "highlight" : [ "article-2", "article-3" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homePage.gspec",
+              "lineNumber" : 61
+            },
+            "name" : "visible",
+            "highlight" : [ "article-2" ]
+          } ]
+        }, {
+          "name" : "article-3",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homePage.gspec",
+              "lineNumber" : 59
+            },
+            "name" : "aligned vertically all article-4",
+            "highlight" : [ "article-3", "article-4" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homePage.gspec",
+              "lineNumber" : 60
+            },
+            "name" : "above article-4",
+            "highlight" : [ "article-3", "article-4" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homePage.gspec",
+              "lineNumber" : 61
+            },
+            "name" : "visible",
+            "highlight" : [ "article-3" ]
+          } ]
+        }, {
+          "name" : "article-4",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homePage.gspec",
+              "lineNumber" : 59
+            },
+            "name" : "aligned vertically all article-5",
+            "highlight" : [ "article-4", "article-5" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homePage.gspec",
+              "lineNumber" : 60
+            },
+            "name" : "above article-5",
+            "highlight" : [ "article-4", "article-5" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homePage.gspec",
+              "lineNumber" : 61
+            },
+            "name" : "visible",
+            "highlight" : [ "article-4" ]
+          } ]
+        }, {
+          "name" : "article-5",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homePage.gspec",
+              "lineNumber" : 59
+            },
+            "name" : "aligned vertically all article-6",
+            "highlight" : [ "article-5", "article-6" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homePage.gspec",
+              "lineNumber" : 60
+            },
+            "name" : "above article-6",
+            "highlight" : [ "article-5", "article-6" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homePage.gspec",
+              "lineNumber" : 61
+            },
+            "name" : "visible",
+            "highlight" : [ "article-5" ]
+          } ]
+        }, {
+          "name" : "article-6",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homePage.gspec",
+              "lineNumber" : 59
+            },
+            "name" : "aligned vertically all article-7",
+            "highlight" : [ "article-6", "article-7" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homePage.gspec",
+              "lineNumber" : 60
+            },
+            "name" : "above article-7",
+            "highlight" : [ "article-6", "article-7" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homePage.gspec",
+              "lineNumber" : 61
+            },
+            "name" : "visible",
+            "highlight" : [ "article-6" ]
+          } ]
+        }, {
+          "name" : "article-7",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homePage.gspec",
+              "lineNumber" : 59
+            },
+            "name" : "aligned vertically all article-8",
+            "highlight" : [ "article-7", "article-8" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homePage.gspec",
+              "lineNumber" : 60
+            },
+            "name" : "above article-8",
+            "highlight" : [ "article-7", "article-8" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homePage.gspec",
+              "lineNumber" : 61
+            },
+            "name" : "visible",
+            "highlight" : [ "article-7" ]
+          } ]
+        } ]
+      }, {
+        "name" : "Paging Navigation",
+        "objects" : [ {
+          "name" : "paging-navigation",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homePage.gspec",
+              "lineNumber" : 65
+            },
+            "name" : "visible",
+            "highlight" : [ "paging-navigation" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homePage.gspec",
+              "lineNumber" : 66
+            },
+            "name" : "below article-8",
+            "highlight" : [ "paging-navigation", "article-8" ]
+          } ]
+        }, {
+          "name" : "paging-navigation.previousButton",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homePage.gspec",
+              "lineNumber" : 69
+            },
+            "name" : "visible",
+            "highlight" : [ "paging-navigation.previousButton" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homePage.gspec",
+              "lineNumber" : 70
+            },
+            "name" : "inside paging-navigation 0px left",
+            "highlight" : [ "paging-navigation.previousButton", "paging-navigation" ]
+          } ]
+        } ]
+      }, {
+        "name" : "Right Block",
+        "objects" : [ {
+          "name" : "rightBlock",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homePage.gspec",
+              "lineNumber" : 74
+            },
+            "name" : "visible",
+            "highlight" : [ "rightBlock" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homePage.gspec",
+              "lineNumber" : 76
+            },
+            "name" : "right-of article-1",
+            "highlight" : [ "rightBlock", "article-1" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "paging-navigation" : {
+          "area" : [ 88, 7678, 763, 60 ]
+        },
+        "article-2" : {
+          "area" : [ 88, 1260, 763, 881 ]
+        },
+        "article-1" : {
+          "area" : [ 88, 234, 763, 986 ]
+        },
+        "article-4" : {
+          "area" : [ 88, 3037, 763, 911 ]
+        },
+        "article-3" : {
+          "area" : [ 88, 2208, 763, 789 ]
+        },
+        "article-6" : {
+          "area" : [ 88, 4963, 763, 892 ]
+        },
+        "article-5" : {
+          "area" : [ 88, 3988, 763, 935 ]
+        },
+        "screen" : {
+          "area" : [ 0, 0, 1335, 8637 ]
+        },
+        "content" : {
+          "area" : [ 58, 191, 1220, 7720 ]
+        },
+        "header.logo" : {
+          "area" : [ 88, 35, 343, 53 ]
+        },
+        "paging-navigation.previousButton" : {
+          "area" : [ 88, 7678, 223, 60 ]
+        },
+        "header.navigation-wrapper" : {
+          "area" : [ 0, 131, 1335, 60 ]
+        },
+        "header.navigation-wrapper.menuItem-5" : {
+          "area" : [ 541, 131, 102, 60 ]
+        },
+        "article-8" : {
+          "area" : [ 88, 6870, 763, 768 ]
+        },
+        "header" : {
+          "area" : [ 0, 0, 1335, 191 ]
+        },
+        "header.navigation-wrapper.menuItem-4" : {
+          "area" : [ 439, 131, 102, 60 ]
+        },
+        "article-7" : {
+          "area" : [ 88, 5895, 763, 935 ]
+        },
+        "header.navigation-wrapper.menuItem-1" : {
+          "area" : [ 88, 131, 118, 60 ]
+        },
+        "header.navigation-wrapper.menuItem-3" : {
+          "area" : [ 338, 131, 100, 60 ]
+        },
+        "header.navigation-wrapper.menuItem-2" : {
+          "area" : [ 206, 131, 133, 60 ]
+        },
+        "rightBlock" : {
+          "area" : [ 881, 234, 366, 4522 ]
+        }
+      },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}
